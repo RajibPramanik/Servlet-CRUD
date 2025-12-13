@@ -1,6 +1,7 @@
 # Servlet CRUD Application (Java + JDBC + Servlet + MySQL)
 ![App Screenshot](CRUD.jpg)
 
+---
 A simple **Servlet-based CRUD (Create, Read, Update, Delete)** web application using **Java Servlets, JDBC, MySQL, and HTML**. This project demonstrates how to perform database operations through a web interface using the MVC-style approach.
 
 
@@ -163,7 +164,7 @@ http://localhost:8080/YourProjectName/index.html
 
 ![App Screenshot](Home.png)<br><br>
 
-* Add Student Form
+* Create Student Form
 
 ![App Screenshot](Add.png)<br><br>
 ![App Screenshot](Add.png)<br><br>
