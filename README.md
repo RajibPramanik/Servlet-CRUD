@@ -182,7 +182,9 @@ http://localhost:8080/YourProjectName/index.html
 
 
 * Database Record
+
 ![App Screenshot](db.png)<br><br>
+
 ---
 
 ## 📚 References
