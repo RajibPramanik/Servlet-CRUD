@@ -179,6 +179,10 @@ http://localhost:8080/YourProjectName/index.html
 
 * Delete Student Record
 ![App Screenshot](Delete.png)<br><br>
+
+
+* Database Record
+![App Screenshot](db.png)<br><br>
 ---
 
 ## 📚 References
