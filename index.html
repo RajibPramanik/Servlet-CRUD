@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add New Seemanta College User</title>
+<style>
+    body {
+        font-family: sans-serif;
+        background: #f9f9f9;
+        margin: 0;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    h1 {
+        margin-bottom: 30px;
+        color: #333;
+    }
+
+    .form-wrapper {
+        display: inline-block;
+        background: #fff;
+        padding: 20px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        border-radius: 8px;
+        min-width: 400px;
+        text-align: left;
+    }
+
+    .css-styled-table {
+        border-collapse: collapse;
+        font-size: 0.9em;
+        min-width: 100%;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+    .css-styled-table thead tr {
+        background-color: #009879;
+        color: #ffffff;
+        text-align: left;
+    }
+    .css-styled-table th,
+    .css-styled-table td {
+        padding: 12px 15px;
+    }
+    .css-styled-table tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+    }
+    .css-styled-table tbody tr:last-of-type {
+        border-bottom: 2px solid #b900ff;
+    }
+
+    input[type="submit"] {
+        background-color: #b900ff;
+        border: none;
+        color: white;
+        padding: 12px 15px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+        transition: background-color 0.3s ease;
+    }
+    input[type="submit"]:hover {
+        background-color: #2a7caf;
+    }
+
+    a {
+        color: #b900ff;
+        font-weight: 600;
+        text-decoration: none;
+        display: block;
+        width: 100%;
+        max-width: 400px;
+        margin: 30px auto 0 auto;
+        text-align: center;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
+</head>
+<body>
+
+<h1>Add New Seemanta College User</h1>
+
+<div class="form-wrapper">
+    <form action="SaveServlet" method="post">
+        <table class="css-styled-table">
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" name="name" required/></td>
+            </tr>
+            <tr>
+                <td>Number of Posts:</td>
+                <td><input type="text" name="numberOfPosts" required/></td>
+            </tr>
+            <tr>
+                <td>Technologies Preferred:</td>
+                <td><input type="text" name="technologiesPreferred" required/></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Save User"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+<a href="ViewServlet">View Seemanta User</a>
+
+</body>
+</html>
