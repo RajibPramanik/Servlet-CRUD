@@ -1,4 +1,4 @@
-# Servlet CRUD Application (Java + JDBC + Servlet + MySQL)
+# Servlet CRUD Application (Java + JDBC + Servlet + MySQL )
 ![App Screenshot](CRUD.jpg)
 
 ---
