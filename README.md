@@ -8,7 +8,6 @@ A simple **Servlet-based CRUD (Create, Read, Update, Delete)** web application u
 ---
 
 ## 📌 Features
-
 * Add new students
 * View all students
 * Update student details
@@ -19,7 +18,6 @@ A simple **Servlet-based CRUD (Create, Read, Update, Delete)** web application u
 ---
 
 ## 🛠️ Technologies Used
-
 * Java (JDK 8+)
 * Java Servlets
 * JDBC
